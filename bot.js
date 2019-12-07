@@ -15,7 +15,6 @@ var shortname = config.shortname
 var leveling = require('discord-leveling')
 const fs = require('fs')
 var emojiname = [""];
-var purchasetoken = config.ptoken
 
 // Command Handler, alot easier than all commands inside the entry point
 const {
@@ -45,27 +44,13 @@ client.on('message', async (message) => {
     }
 });
 
-//Do not touch, this is a token whitelist, removing this will get you banned from Digital and all marketplaces this bot is sold on!
-client.on("ready", async () => {
-    console.log(`Token check in progress...`)
-    const verchann = client.channels.find(channel => channel.id === `652347003006615601`);
-    try {
-    await verchann.send(`Client login initiated with token ${config.ptoken} for user ${config.yourname}`) 
-    } catch (err) {
-        console.error(err)
-        console.clear()
-        await console.error(`[ERROR] Token Whitelist Failed, please contact IceyyM8`)
-        client.destroy()
-    }
-})
-
 
 client.on("ready", () => {
-    console.log(`\u001b[31m`, `------------[ ${shortname} BOT | Made by IceyyM8 | Token ${purchasetoken} ]---------`)
+    console.log(`\u001b[31m`, `------------[ ${shortname} BOT | Made by IceyyM8  ]---------`)
     console.log(`\u001b[32 m`, `[${shortname}] Stats | ${client.users.size} users, ${client.channels.size} channels`)
     console.log(`\u001b[32 m`, `[${shortname}] Invite | https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8`)
     console.log(`\u001b[32 m`, `[${shortname}] The bot connected to the api and is online with a ping of ${client.ping}ms`)
-    console.log(`\u001b[31m`, `------------[ ${shortname} BOT | Made by IceyyM8 | Token ${purchasetoken}---------`)
+    console.log(`\u001b[31m`, `------------[ ${shortname} BOT | Made by IceyyM8 ]---------`)
     client.user.setActivity(`?help | Serving ${client.users.size} users | Made by IceyyM8`, {
         type: "LISTENING" 
     })
