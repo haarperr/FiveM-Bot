@@ -1,4 +1,4 @@
-Thanks for buying the bot!
+Thanks for using the bot!
 First please run install-depend.bat and wait for it to finish
 Next go to /commands/config/config.json and edit these values
 What do these values mean, find out below!
