@@ -1,0 +1,20 @@
+Thanks for buying the bot!
+First please run install-depend.bat and wait for it to finish
+Next go to /commands/config/config.json and edit these values
+What do these values mean, find out below!
+"token" This is the bot's token
+"yourname" Your name, used for whitelisting you to use the bot!
+"ptoken" The purchase token you recieved when you purchasedS
+"color" Main embed color, use a hex like this #000fff
+"version" The bots version
+"ip" Your server's ip
+"logo" Your server's logo, must be a direct picture link
+"shortname" Abbreviation for server name, used in all embeds
+"logchanname" The log's channel name
+"reportchan" Channel where reports go
+"botmsgname" The level messages channel
+"servername" The full rp server's name
+"ticketchan" Channel where tickets go (Channel Name)
+"bugchan" The channel where bug reports go (Channel Name)
+"mainpermission" Id leave this at administrator, its basically permission for bot dev commands
+"ruleslink": The link to a list of your rules

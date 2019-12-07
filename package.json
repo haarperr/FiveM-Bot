@@ -1,0 +1,30 @@
+{
+  "name": "SOLD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fjflala/words-counter": "^1.0.1",
+    "common-tags": "^1.8.0",
+    "count-words-occurrence": "^1.0.0",
+    "dateformat": "^3.0.3",
+    "discord-leveling": "^1.1.0",
+    "discord.js": "github:discordjs/discord.js",
+    "djs-commands": "^1.2.2",
+    "fivem-api": "^1.5.0",
+    "jsonify": "0.0.0",
+    "letter-count": "^2.8.9",
+    "node-fetch": "^2.6.0",
+    "quick.db": "^7.0.0-b22",
+    "reaction-core": "^2.3.0",
+    "request": "^2.88.0",
+    "sequelize": "^5.21.2",
+    "substr-occurrence": "^1.1.0"
+  }
+}
