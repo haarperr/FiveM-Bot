@@ -4,7 +4,6 @@ Next go to /commands/config/config.json and edit these values
 What do these values mean, find out below!
 "token" This is the bot's token
 "yourname" Your name, used for whitelisting you to use the bot!
-"ptoken" The purchase token you recieved when you purchasedS
 "color" Main embed color, use a hex like this #000fff
 "version" The bots version
 "ip" Your server's ip
