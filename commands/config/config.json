@@ -1,0 +1,17 @@
+{
+    "token": "Token",
+    "yourname": "IceyyM8",
+    "color": "#468d5e",
+    "version" : "Testing",
+    "ip": "Server",
+    "logo": "https://pbs.twimg.com/media/CjYGwqwVEAAlC4q.jpg",
+    "shortname": "TEST",
+    "logchanname": "loggy",
+    "reportchan": "dev-log",
+    "botmsgname": "bot-chat",
+    "servername": "TESTER BOT",
+    "ticketchan": "verify",
+    "bugchan": "dev-log",
+    "mainpermission": "ADMINISTRATOR",
+    "ruleslink": "https://google.com"
+}
