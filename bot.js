@@ -51,7 +51,7 @@ client.on("ready", () => {
     console.log(`\u001b[32 m`, `[${shortname}] Invite | https://discordapp.com/oauth2/authorize?client_id=${client.user.id}&scope=bot&permissions=8`)
     console.log(`\u001b[32 m`, `[${shortname}] The bot connected to the api and is online with a ping of ${client.ping}ms`)
     console.log(`\u001b[31m`, `------------[ ${shortname} BOT | Made by IceyyM8 ]---------`)
-    client.user.setActivity(`?help | Serving ${client.users.size} users | Made by IceyyM8`, {
+    client.user.setActivity(`${config.activity}`, {
         type: "LISTENING" 
     })
 });
